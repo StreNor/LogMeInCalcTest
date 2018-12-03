@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CalcTestSuite]">
+  <test name="CalcTest(failed)">
+    <classes>
+      <class name="LogMeInCalcTest.CalculatorTestClass">
+        <methods>
+          <include name="terminateBrowser"/>
+          <include name="verifyTwoValueOperation"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- LogMeInCalcTest.CalculatorTestClass -->
+    </classes>
+  </test> <!-- CalcTest(failed) -->
+</suite> <!-- Failed suite [CalcTestSuite] -->
