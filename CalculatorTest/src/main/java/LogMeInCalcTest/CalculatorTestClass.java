@@ -170,7 +170,7 @@ public class CalculatorTestClass {
 	@DataProvider(name = "TwoValueOperation")
 	public Object[][] TwoValueOperation() {
 		Object[][] arrayObject = getExcelData(
-				"CalculatorTest/src/main/java/LogMeInCalcTest/CalcDataProvider.xls",
+				"../CalculatorTest/src/main/java/LogMeInCalcTest/CalcDataProvider.xls",
 				"TwoValueFunctionalTC");
 		return arrayObject;
 	}
@@ -178,7 +178,7 @@ public class CalculatorTestClass {
 	@DataProvider(name = "ThreeValueOperation")
 	public Object[][] ThreeValueOperation() {
 		Object[][] arrayObject = getExcelData(
-				"CalculatorTest/src/main/java/LogMeInCalcTest/CalcDataProvider.xls",
+				"../CalculatorTest/src/main/java/LogMeInCalcTest/CalcDataProvider.xls",
 				"ThreeValueFunctionalTC");
 		return arrayObject;
 	}
