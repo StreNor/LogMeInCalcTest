@@ -3,7 +3,7 @@
 <suite name="CalcTestSuite">
   <test name="CalcTest">
     <classes>
-<!--       <class name="LogMeInCalcTest.CalculatorTestClass"/> -->
+      <class name="LogMeInCalcTest.CalculatorTestClass"/>
       <class name="LogMeInCalcTest.NonFunctionalTests"/>
     </classes>
   </test> <!-- CalcTest -->
