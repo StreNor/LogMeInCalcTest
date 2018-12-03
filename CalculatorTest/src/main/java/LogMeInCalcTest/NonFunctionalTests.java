@@ -106,7 +106,7 @@ public class NonFunctionalTests {
 	@DataProvider(name = "TwoOperatorTC")
 	public Object[][] TwoOperatorTC() {
 		Object[][] arrayObject = getExcelData(
-				"CalculatorTest/src/main/java/LogMeInCalcTest/CalcDataProvider.xls","TwoOperatorTC");
+				"../CalculatorTest/src/main/java/LogMeInCalcTest/CalcDataProvider.xls","TwoOperatorTC");
 		return arrayObject;
 	}
 	
